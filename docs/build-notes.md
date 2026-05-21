@@ -18,7 +18,7 @@ The MVP doesn't need saved estimates. The user fills the form, previews, pays, d
 jsPDF runs in the browser. No server process needed to generate PDFs. This keeps infrastructure costs at $0 and eliminates a potential failure point.
 
 ### Payment flow
-1. User fills estimate → data saved to `localStorage` under `quotekit_estimate`
+1. User fills estimate → data saved to `localStorage` under `buildquote_estimate`
 2. User clicks "Download Clean PDF ($4.99)"
 3. Browser POSTs to `/api/checkout` → returns Stripe Checkout URL
 4. User pays on Stripe's hosted page

@@ -10,7 +10,7 @@ export default function NavBar() {
     <nav className="bg-white border-b border-gray-200">
       <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link href="/" className="font-bold text-blue-700 text-lg tracking-tight">
-          QuoteKit
+          BuildQuote
         </Link>
         <div className="flex items-center gap-6 text-sm">
           <Link href="/pricing" className={`text-gray-600 hover:text-blue-700 ${path === '/pricing' ? 'text-blue-700 font-medium' : ''}`}>

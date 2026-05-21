@@ -2,19 +2,19 @@
 
 ## MVP: No Database
 
-QuoteKit's MVP requires no database. All estimate data is ephemeral — it lives in the user's browser session.
+BuildQuote's MVP requires no database. All estimate data is ephemeral — it lives in the user's browser session.
 
 ### Data storage in MVP
 | What | Where | When cleared |
 |------|-------|-------------|
-| Current estimate form data | `localStorage` (`quotekit_estimate`) | When user clears browser or 30 days |
-| Payment session ID | `localStorage` (`quotekit_paid_session`) | Same |
+| Current estimate form data | `localStorage` (`buildquote_estimate`) | When user clears browser or 30 days |
+| Payment session ID | `localStorage` (`buildquote_paid_session`) | Same |
 | Nothing else | — | — |
 
 ### Schema (localStorage shape)
 
 ```typescript
-// localStorage key: 'quotekit_estimate'
+// localStorage key: 'buildquote_estimate'
 {
   contractor: {
     name: string;

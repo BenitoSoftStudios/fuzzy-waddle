@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'QuoteKit — Professional Contractor Estimate Generator',
+  title: 'BuildQuote — Professional Contractor Estimate Generator',
   description: 'Create professional contractor estimates in minutes. Fill in your details, add line items, and download a clean PDF. Free to try — $4.99 for a clean PDF.',
 };
 
@@ -151,7 +151,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-gray-100 bg-white">
         <div className="max-w-5xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-          <span>© {new Date().getFullYear()} QuoteKit. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} BuildQuote. All rights reserved.</span>
           <div className="flex gap-6">
             <Link href="/pricing" className="hover:text-gray-600">Pricing</Link>
             <Link href="/builder" className="hover:text-gray-600">Create Estimate</Link>

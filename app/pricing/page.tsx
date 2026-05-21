@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import PricingCard from '@/components/PricingCard';
 
 export const metadata: Metadata = {
-  title: 'Pricing — QuoteKit',
+  title: 'Pricing — BuildQuote',
   description: 'Simple, transparent pricing. Free to build your estimate. $4.99 to download a clean, professional PDF.',
 };
 
@@ -50,11 +50,11 @@ export default function PricingPage() {
           {[
             {
               q: 'Do I need to create an account?',
-              a: 'No. QuoteKit works without any signup. Your estimate is built in your browser and downloaded instantly.',
+              a: 'No. BuildQuote works without any signup. Your estimate is built in your browser and downloaded instantly.',
             },
             {
               q: 'What does the watermarked PDF look like?',
-              a: 'It has "SAMPLE" stamped across it and a small QuoteKit footer. Great for showing a client a draft, but not for submitting a final estimate.',
+              a: 'It has "SAMPLE" stamped across it and a small BuildQuote footer. Great for showing a client a draft, but not for submitting a final estimate.',
             },
             {
               q: 'Can I re-download after paying?',

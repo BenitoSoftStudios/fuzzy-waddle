@@ -1,6 +1,6 @@
 # Buyer Handoff Notes
 
-Welcome. This document explains everything you need to own and operate QuoteKit.
+Welcome. This document explains everything you need to own and operate BuildQuote.
 
 ## What You're Buying
 

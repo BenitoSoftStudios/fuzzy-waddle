@@ -153,7 +153,7 @@ export default function EstimatePreview({ data, watermark = false }: Props) {
 
         {/* Footer */}
         <div className="border-t border-gray-100 pt-3 text-center text-xs text-gray-300">
-          {watermark ? 'Created with QuoteKit.app — quotekit.app' : 'quotekit.app'}
+          {watermark ? 'Created with BuildQuote.app — buildquote.app' : 'buildquote.app'}
         </div>
       </div>
     </div>

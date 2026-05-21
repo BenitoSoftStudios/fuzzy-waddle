@@ -1,8 +1,8 @@
-# QuoteKit — Contractor Estimate Generator
+# BuildQuote — Contractor Estimate Generator
 
 Professional estimates for contractors, in minutes. Fill in your details, add line items, and download a clean PDF.
 
-**Live at**: quotekit.app *(configure your own domain)*
+**Live at**: buildquote.app *(configure your own domain)*
 
 ---
 
@@ -33,7 +33,7 @@ No login. No database. No account required.
 ```bash
 # 1. Clone the repo
 git clone <repo-url>
-cd quotekit
+cd buildquote
 
 # 2. Install dependencies
 npm install
