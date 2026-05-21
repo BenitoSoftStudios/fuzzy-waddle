@@ -23,7 +23,7 @@ function Field({ label, value, onChange, type = 'text', placeholder = '' }: {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        className="border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
       />
     </div>
   );
@@ -44,7 +44,7 @@ function TextArea({ label, value, onChange, rows = 3, placeholder = '' }: {
         onChange={(e) => onChange(e.target.value)}
         rows={rows}
         placeholder={placeholder}
-        className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-y"
+        className="border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-y"
       />
     </div>
   );
@@ -166,7 +166,7 @@ export default function EstimateForm({ data, onChange }: Props) {
                   value={item.description}
                   onChange={(e) => updateLineItem(item.id, 'description', e.target.value)}
                   placeholder="Labor — pipe repair"
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
               <div className="col-span-4 sm:col-span-2">
@@ -176,7 +176,7 @@ export default function EstimateForm({ data, onChange }: Props) {
                   min={0}
                   step={0.5}
                   onChange={(e) => updateLineItem(item.id, 'quantity', parseFloat(e.target.value) || 0)}
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
               <div className="col-span-4 sm:col-span-2">
@@ -185,7 +185,7 @@ export default function EstimateForm({ data, onChange }: Props) {
                   value={item.unit}
                   onChange={(e) => updateLineItem(item.id, 'unit', e.target.value)}
                   placeholder="hrs"
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
               <div className="col-span-4 sm:col-span-2 relative">
@@ -196,7 +196,7 @@ export default function EstimateForm({ data, onChange }: Props) {
                   min={0}
                   step={0.01}
                   onChange={(e) => updateLineItem(item.id, 'unitPrice', parseFloat(e.target.value) || 0)}
-                  className="w-full border border-gray-300 rounded-md pl-6 pr-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-md pl-6 pr-3 py-2 text-sm text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
               <div className="col-span-12 sm:col-span-1 flex justify-end sm:justify-center">
@@ -230,7 +230,7 @@ export default function EstimateForm({ data, onChange }: Props) {
             max={100}
             step={0.1}
             onChange={(e) => set('taxRate', parseFloat(e.target.value) || 0)}
-            className="w-24 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-24 border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <span className="text-gray-400 text-xs">Set to 0 if no tax applies</span>
         </div>
