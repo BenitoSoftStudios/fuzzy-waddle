@@ -240,13 +240,13 @@ export function generatePDF(data: EstimateData, watermark = false): void {
   doc.setTextColor(GRAY);
 
   if (watermark) {
-    doc.text('Created with BuildQuote.app — buildquote.app', pageW / 2, pageH - 20, { align: 'center' });
+    doc.text('Created with Estimly.app — estimly.app', pageW / 2, pageH - 20, { align: 'center' });
     // Diagonal watermark
     doc.setFontSize(52);
     doc.setTextColor('#e5e7eb');
     doc.text('SAMPLE', pageW / 2, pageH / 2 + 30, { align: 'center', angle: 45 });
   } else {
-    doc.text('buildquote.app', pageW / 2, pageH - 20, { align: 'center' });
+    doc.text('estimly.app', pageW / 2, pageH - 20, { align: 'center' });
   }
 
   const filename = `estimate-${data.estimateNumber || 'draft'}.pdf`;

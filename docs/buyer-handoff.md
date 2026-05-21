@@ -1,6 +1,6 @@
 # Buyer Handoff Notes
 
-Welcome. This document explains everything you need to own and operate BuildQuote.
+Welcome. This document explains everything you need to own and operate Estimly.
 
 ## What You're Buying
 

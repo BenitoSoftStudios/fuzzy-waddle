@@ -73,5 +73,5 @@ export function estimateTotal(items: LineItem[], taxRate: number): number {
   return estimateSubtotal(items) + estimateTax(items, taxRate);
 }
 
-export const STORAGE_KEY = 'buildquote_estimate';
-export const PAID_SESSION_KEY = 'buildquote_paid_sessions';
+export const STORAGE_KEY = 'estimly_estimate';
+export const PAID_SESSION_KEY = 'estimly_paid_sessions';

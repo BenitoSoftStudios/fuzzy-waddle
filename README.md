@@ -1,8 +1,8 @@
-# BuildQuote — Contractor Estimate Generator
+# Estimly — Contractor Estimate Generator
 
 Professional estimates for contractors, in minutes. Fill in your details, add line items, and download a clean PDF.
 
-**Live at**: buildquote.app *(configure your own domain)*
+**Live at**: estimly.app *(configure your own domain)*
 
 ---
 
@@ -33,7 +33,7 @@ No login. No database. No account required.
 ```bash
 # 1. Clone the repo
 git clone <repo-url>
-cd buildquote
+cd estimly
 
 # 2. Install dependencies
 npm install

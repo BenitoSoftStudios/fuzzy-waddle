@@ -1,7 +1,7 @@
-# Product Brief — BuildQuote
+# Product Brief — Estimly
 
 ## What It Is
-BuildQuote is a contractor estimate generator. Contractors fill in their info, client info, and line items, then download a professional PDF estimate.
+Estimly is a contractor estimate generator. Contractors fill in their info, client info, and line items, then download a professional PDF estimate.
 
 ## The Problem
 Contractors (plumbers, electricians, roofers, painters, general contractors) send estimates every day. Most use Word templates, Google Docs, or handwritten forms. These look unprofessional, take too long, and are hard to customize per job.
@@ -34,9 +34,9 @@ Scored on 7 criteria (1–5 scale):
 | Wedding Vendor Contact Sheet | 3 | 2 | 4 | 3 | 4 | 3 | 4 | 23 |
 | Invoice Late Fee Calculator | 3 | 2 | 5 | 3 | 5 | 3 | 5 | 26 |
 | Resume Tailoring Checklist | 4 | 2 | 4 | 4 | 4 | 3 | 4 | 25 |
-| **Contractor Estimate PDF (BuildQuote)** | **5** | **5** | **4** | **4** | **5** | **5** | **4** | **32** |
+| **Contractor Estimate PDF (Estimly)** | **5** | **5** | **4** | **4** | **5** | **5** | **4** | **32** |
 
-BuildQuote wins because:
+Estimly wins because:
 - Contractors have **real, weekly pain** — this isn't an occasional problem
 - They **willingly pay** for tools that make them look professional and save time
 - The build is **achievable without a database** — PDF generation is client-side

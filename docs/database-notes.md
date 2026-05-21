@@ -2,19 +2,19 @@
 
 ## MVP: No Database
 
-BuildQuote's MVP requires no database. All estimate data is ephemeral — it lives in the user's browser session.
+Estimly's MVP requires no database. All estimate data is ephemeral — it lives in the user's browser session.
 
 ### Data storage in MVP
 | What | Where | When cleared |
 |------|-------|-------------|
-| Current estimate form data | `localStorage` (`buildquote_estimate`) | When user clears browser or 30 days |
-| Payment session ID | `localStorage` (`buildquote_paid_session`) | Same |
+| Current estimate form data | `localStorage` (`estimly_estimate`) | When user clears browser or 30 days |
+| Payment session ID | `localStorage` (`estimly_paid_session`) | Same |
 | Nothing else | — | — |
 
 ### Schema (localStorage shape)
 
 ```typescript
-// localStorage key: 'buildquote_estimate'
+// localStorage key: 'estimly_estimate'
 {
   contractor: {
     name: string;
